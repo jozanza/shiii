@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-turbo = { version = "4.0.0-alpha.0", package = "turbo-genesis-sdk", path = "/Users/jozanza/github/turbo-genesis-sdk/turbo-genesis-sdk" }
+turbo = { version = "4.0.0-alpha.0", package = "turbo-genesis-sdk" }
 
 [lib]
 crate-type = ["cdylib"]

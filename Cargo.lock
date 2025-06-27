@@ -301,6 +301,8 @@ checksum = "5d99f8c9a7727884afe522e9bd5edbfc91a3312b36a77b5fb8926e4c31a41801"
 [[package]]
 name = "turbo-genesis-abi"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5320bd7ee199f9341e9bab279237a6640f44e1d1a4d6607e6497adfbe8d9289f"
 dependencies = [
  "borsh",
  "num-traits",
@@ -309,10 +311,14 @@ dependencies = [
 [[package]]
 name = "turbo-genesis-ffi"
 version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c3576d6eb96d1ae2349fb994a277b93daa0f196ab8bd959a85a42d45e55c7b73"
 
 [[package]]
 name = "turbo-genesis-macros"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c56bb9afee55871de73838815db19de61a87597774ba848116f38b1f99cb574c"
 dependencies = [
  "base64",
  "proc-macro2",
@@ -326,6 +332,8 @@ dependencies = [
 [[package]]
 name = "turbo-genesis-sdk"
 version = "4.0.0-alpha.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9261c218d4240aabb63c7663b8a39b640f0121e68473c180cea8df3771dc17e1"
 dependencies = [
  "base64",
  "borsh",
