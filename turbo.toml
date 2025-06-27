@@ -1,0 +1,12 @@
+name = "shiii"
+version = "0.1.0"
+description = "An awesome game made in Turbo!"
+authors = ["Anonymous"]
+
+[canvas]
+width = 256
+height = 144
+
+[turbo-os]
+# api-url = "http://0.0.0.0:8000"
+api-url = "https://os.turbo.computer"
