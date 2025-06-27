@@ -112,7 +112,6 @@ pub mod hello {
     impl CommandHandler for Greet {
         fn run(&mut self, user_id: &str) -> Result<(), std::io::Error> {
             use turbo::os::server;
-            server::bail!("YOU NOT DA OWNER!");
             server::log!("Hey, {user_id}!");
             Ok(())
         }
@@ -143,16 +142,7 @@ pub mod counter {
             let mut counter = server::fs::read("counter").unwrap_or(Counter { value: 0 });
             counter.value += self.amount();
             server::log!("Incremented = {:?}", counter);
-
-            let res = server::command::invoke(
-                "JsxvRiJiXPZOIZwQg4lCOLFQZORfe5fxFAr1f8sQmCk",
-                "greet",
-                &[],
-            )?;
-            server::log!("--> {res:?}");
-
             server::fs::write("counter", &counter)?;
-            // server::log!("{:?}", res);
             Ok(())
         }
     }

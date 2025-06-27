@@ -3,6 +3,9 @@ name = "shiii"
 version = "0.1.0"
 edition = "2021"
 
+[package.metadata.turbo]
+user = "9fbcd712-c52a-4d46-999b-6cd4ffeceae6"
+
 [dependencies]
 turbo = { version = "4.0.0-alpha.0", package = "turbo-genesis-sdk" }
 
